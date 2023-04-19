@@ -104,10 +104,17 @@ def create_app(db_url=None):
     return app
 
 
+
 # GIT COMMANDS
 
 # git init -> create a file .git 
 # git status -> information about .git file
 # git add <file>-> add file 
 # git add . -> add all file
-# create file named .gitignore ->
+# create file named .gitignore -> remove files inside from .git 
+# git rm --cached <file> -> remove file from .git
+# git checkout -- <file> -> remove changes
+# git restore <file> -> remove changes
+# git reset HEAD <file> -> after git add <file> this moves file back to the working area
+# git commit -a -> that will create a commit and automatically add to the staging area, Only adds tracked files.
+# git commit -m -> commit message line
